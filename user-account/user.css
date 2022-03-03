@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/*  Nav  */
+
+nav .welcome a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+}
+
+nav .welcome a:hover{
+    background: rgba(39, 39, 39, 0.082);
+    border-radius: 3px;
+    transition: .3s;
+    color: black;
+}
+
+nav .welcome a h4 span:hover{
+    color: rgb(111, 0, 255);
+    transition: .3s;
+}
+
+nav .welcome a h4 span{
+    color: rgb(156, 114, 211);
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 0px 5px 5px rgba(128, 127, 127, 0.466);
+}
+
+nav ul li{
+    list-style: none;
+    margin: 30px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    font-size: 18px;
+}
+
+nav ul li a i{
+    margin-top: 4%;
+}
+
+nav ul li a p{
+    margin-left: 10px;
+}
+
+nav .logout li{
+    list-style: none;
+}
+
+nav .logout li a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    padding: 10px;
+}
+
+nav .logout li a:hover{
+    background: rgba(204, 204, 204, 0.5);
+    transition: .3s;
+    border-radius: 3px;
+}
+
+nav .logout li a i{
+    margin-top: 5%;
+}
+
+nav .logout li a p{
+    margin-left: 10px;
+}
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 6%;
+}
+
+.container .user{
+    box-shadow: 0 0 8px 8px #8686867a;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(66, 66, 66);
+}
+
+.container .user-photo img{
+    width: 200px;
+    clip-path: circle();
+}
+
+
+.container .user-photo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container .user-bro h4{
+    width: 400px;
+}
+
+.container .user-photo .rate-rank{
+    display: none;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+    color: gray;
+    background: #ffffff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.container .user a{
+    text-decoration: none;
+    color: gray;
+}
+
+.container .user:hover{
+    box-shadow: 0 0 6px 6px #6d6d6d7a;
+    filter: brightness(90%);
+    transition: .3s;
+}
+
+
+
+
+
+
+.container .social{
+    margin: 50px;
+    box-shadow: 0 0 6px 6px rgba(128, 128, 128, 0.466);
+    padding: 18px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.container .social li{
+    list-style: none;
+}
+
+.container .social li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+}
+
+
+.container .social span:hover{
+    color: gray;
+    transition: .3s;
+}
+
+/*  post details container  */
+
+.post-details-container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.post-details-container .post-details-box{
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.555);
+    padding: 1px;
+    width: 433px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -12%;
+}
+
+.post-details-container div{
+    margin: 10px;
+    display: flex;
+    font-size: 20px;
+    justify-self: center;
+    align-items: center;
+}
+
+.post-details-container div i{
+    margin-top: 5%;
+    margin-right: 8px;
+}
+
+/*  left ber  */
+
+
+.left-container{
+    padding-top: 50px;
+    padding-left: 20px;
+    display: none;
+}
+
+.left-ber{
+    background: rgba(122, 119, 119, 0.575);
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.541);
+    height: 75vh;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.left-ber ul{
+    float: left;
+    margin: -3px;
+}
+
+.left-ber ul li{
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    background: rgba(226, 219, 219, 0.418);
+    font-size: 30px;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(58, 52, 52, 0.315);
+}
+
+.left-ber ul .hover, .left-ber ul li:hover{
+    background: rgba(126, 121, 121, 0.596);
+    filter: blur(.50px);
+    font-size: 31px;
+    color: white;
+    box-shadow: 0 0 3px 3px rgba(243, 218, 218, 0.315);
+    transition: .3s;
+}
+
+.left-ber ul li i{
+    color: rgba(0, 0, 0, 0.616);
+}
+
+
+.left-ber ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.left-ber ul li a i:hover{
+    color: white;
+}
+
+.left-ber ul li  a i:active{
+    color: white;
+}
+
+/*
+@media all and (max-width: 900px){
+    .left-ber{
+        height: 50vh;
+    }
+}
+*/

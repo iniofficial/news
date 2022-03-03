@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    background: rgb(185, 197, 199);
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+}
+
+.container .login-box{
+    padding: 30px;
+    background: rgb(198, 214, 213);
+    border-radius: 5px;
+    box-shadow: 0 0 6px 6px rgba(137, 167, 165, 0.205);
+}
+
+.container .login-box form div input{
+    padding: 15px;
+    margin: 20px;
+    width: 370px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 0 5px 5px rgba(187, 187, 187, 0.329);
+    border: none;
+    border-radius: 3px;
+    background: rgb(206, 224, 228);
+    font-weight: 600;
+}
+
+.container .login-box form .login-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container .login-box form .login-btn button{
+    margin: 25px;
+    padding: 15px 30px;
+    background: rgb(206, 224, 228);
+    border: none;
+    width: auto;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 1000;
+    box-shadow: 0 0 5px 5px rgba(187, 187, 187, 0.329);
+    color: gray;
+    cursor: pointer;
+}
+
+.container .login-box form .login-btn button:hover{
+    color: rgb(71, 71, 71);
+    transition: .3s;
+}
+
+.container .login-box .title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    color: rgba(124, 118, 118, 0.781);
+    margin-bottom: 20px;
+}
+
+.container .login-box form .password .forgot-password{
+    margin-left: 25px;
+    margin-top: -8px;
+    display: none;
+}
+
+.container .login-box form .password .forgot-password a{
+    text-decoration: none;
+    color: rgba(124, 118, 118, 0.781);
+}
+
+.container .login-box .creaect-account{
+    margin: 10px;
+    display: none;
+}
+
+.container .login-box .creaect-account a{
+    text-decoration: none;
+    color: rgb(102, 105, 105);
+}
+
+
+.container .login-box .creaect-account span{
+    color: rgb(60, 93, 88);
+}
+
+.container .login-box .password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .login-box .password input{
+    width: 160px;
+    margin: 11px;
+}

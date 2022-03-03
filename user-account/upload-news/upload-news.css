@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 8px 8px rgba(173, 173, 173, 0.801);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-top: 4px;
+}
+
+
+nav ul li a{
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+nav ul li a i{
+    margin-top: 5%;
+}
+
+nav ul li a p{
+    margin-left: 3px;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+}
