@@ -1,0 +1,85 @@
+.posts-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2%;
+}
+
+.posts{
+    color: rgb(100, 100, 100);
+}
+
+.posts-container .post{
+    margin-top: 5%;
+    height: auto;
+    width: auto;
+}
+
+.one-line{
+    display: flex;
+}
+
+.posts .post h1{
+    margin: 10px;
+}
+
+.posts .post .date p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.815);
+    margin: 10px;
+}
+
+.posts .post .text p{
+    width: 600px;
+    margin: 10px;
+}
+
+.posts .post .title{
+    width: 500px;
+}
+
+.posts .post .title h2{
+    margin: 10px;
+}
+
+.posts .post .photo img{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.posts .post .photo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.posts .post{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(56, 56, 56, 0.26);
+}
+
+
+.posts .post .by{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.posts-container .posts .post a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+
+
+
+
+
+
+
+
+
+
+.gab{
+    height: 500px;
+}

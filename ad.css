@@ -1,0 +1,22 @@
+.ad{
+    display: none;
+    position: fixed;
+    top: 45%;
+    left: 12%;
+    transform: translate(-50% , -50%);
+}
+
+.ad .flex{
+    display: inline;
+}
+
+.ad .flex .ad-in{
+    display: inline;
+    padding: 10px;
+}
+
+
+.ad img{
+    width: 300px;
+    border-radius: 10px;
+}
