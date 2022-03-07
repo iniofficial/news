@@ -104,6 +104,10 @@ nav .leng select:hover{
 hide
 */
 
+.phone-mode{
+    display: none;
+}
+
 .hide{
     display: none;
 }
