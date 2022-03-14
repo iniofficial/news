@@ -1,0 +1,33 @@
+
+
+.post-container .post-site .duo-post{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-container .post-site .duo-post .d-post{
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.582);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.post-container .post-site .d-post .photo-ber img{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.post-container .post-site .d-post .text-type p{
+    width: 500px;
+}
+
+.post-container .post-site .d-post .text-type h1{
+    width: 500px;
+}
+
+.post-container .by a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.719);
+}

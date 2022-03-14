@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/*nav*/
+
+nav{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.452);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 0.85%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgba(82, 82, 82, 0.856);
+}
+
+.fast-news-content{
+}
+
+audio{
+    display: none;
+}
+
+.gab{
+    height: 800px;
+}
+
+/*messi*/
+
+.messi-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-of-messi{
+    display: flex;
+    margin-top: 05%;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.555);
+    padding: 10px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+
+
+
+.div-of-messi .text .title-type .line{
+    background: rgba(0, 0, 0, 0.698);
+    border: rgba(0, 0, 0, 0.698);
+    height: 4px;
+}
+
+.div-of-messi .text{
+    margin-left: 10%;
+}
+
+.div-of-messi .text{
+    color: rgba(0, 0, 0, 0.698);
+}
+
+.div-of-messi .rank img{
+    width: 120px;
+}
+
+.div-of-messi .rank{
+    margin-left: 15%;
+}
+
+.div-of-messi .rank img:hover{
+    width: 200px;
+    margin-left: -15%;
+    transition: 1s;
+}
+
+.div-of-messi .photo img{
+    width: 400px;
+}
+
+.div-of-messi .photo img:hover{
+    width: 430px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.div-of-messi .title-type:hover{
+    transition: 1s;
+}
+
+/*
+.div-of-messi .rank:hover{
+    right: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+*/
+
+.div-of-messi .photo{
+    margin-top: 6%;
+}
+
+/*category-ber*/
+
+.category-ber{
+    margin-top: 4%;
+}
+
+.category-ber .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-ber .item a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.category-ber .item h3{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid rgba(128, 128, 128, 0.575);
+    border-radius: 100px;
+}
+
+.category-ber .item .hovered,.category-ber .item h3:hover{
+    background: rgba(128, 128, 128, 0.582);
+}
